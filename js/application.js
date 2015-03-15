@@ -1,18 +1,26 @@
 ;(function(factors){
     var worker = new Worker('js/factorisation-worker.js');
-    worker.addEventListener('message', function(data){
-        console.log(data);
-    });
-    worker.postMessage('ping');
 
     var input = document.getElementById('n');
     var output = document.getElementById('factors');
 
+    worker.addEventListener('message', function(event){
+        if (event.data.type == 'factor') {
+            output.innerHTML += event.data.d;
+            output.innerHTML += '&times;'
+        }
+        if (event.data.type == 'finish') {
+            output.innerHTML += '1'
+        }
+        console.log(event.data);
+
+    });
+
     function calculateFactors(){
         try {
+            output.innerHTML = '';
             var n = parseInt(input.value);
-            var result = factors.of(n);
-            output.innerHTML = result.join('&times;');
+            worker.postMessage({ 'n': n });
         } catch(e) {
             /* do nothing */
         }
