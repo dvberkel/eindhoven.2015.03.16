@@ -1,4 +1,10 @@
 ;(function(factors){
+    var worker = new Worker('js/factorisation-worker.js');
+    worker.addEventListener('message', function(data){
+        console.log(data);
+    });
+    worker.postMessage('ping');
+
     var input = document.getElementById('n');
     var output = document.getElementById('factors');
 
