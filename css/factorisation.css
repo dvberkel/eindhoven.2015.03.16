@@ -1,0 +1,11 @@
+.factorisation {
+    font-size: 400%;
+}
+
+.large.number {
+    font-size: 100%;
+}
+
+.factors:before {
+    content: '='
+}
