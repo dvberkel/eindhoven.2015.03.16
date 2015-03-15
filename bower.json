@@ -1,0 +1,22 @@
+{
+  "name": "eindhoven.2015.03.16",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dvberkel/eindhoven.2015.03.16",
+  "authors": [
+    "dvberkel <daan.v.berkel.1980@gmail.com>"
+  ],
+  "description": "Demo for University of Applied Science Eindhoven",
+  "main": "index.html",
+  "keywords": [
+    "demo"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
