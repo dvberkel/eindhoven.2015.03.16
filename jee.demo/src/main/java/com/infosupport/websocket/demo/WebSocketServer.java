@@ -1,5 +1,6 @@
 package com.infosupport.websocket.demo;
 
+import javax.websocket.OnClose;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
@@ -9,5 +10,10 @@ public class WebSocketServer {
     @OnOpen
     public void receiveWebSocketSession(Session session) {
         /* handle session */
+    }
+
+    @OnClose
+    public void closeWebSocketSession(Session session) {
+        /* clean up session */
     }
 }
