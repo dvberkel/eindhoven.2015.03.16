@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3d82aca-4110-4689-aa8b-f7e39f0fa4f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/infosupport/websocket/demo/WebSocketServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/infosupport/websocket/demo/WebSocketServer.java" />
-    </list>
+    <list default="true" id="a3d82aca-4110-4689-aa8b-f7e39f0fa4f2" name="Default" comment="" />
     <ignored path="jee.demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -425,12 +423,12 @@
       <created>1426487100067</created>
       <option name="number" value="Default" />
       <updated>1426487100067</updated>
-      <workItem from="1426487102482" duration="650000" />
+      <workItem from="1426487102482" duration="707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="650000" />
+    <option name="totallyTimeSpent" value="707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
