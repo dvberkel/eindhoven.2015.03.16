@@ -34,4 +34,7 @@
     connection.onopen = function(){
         console.log('open connection');
     }
+    connection.onclose = function(){
+        console.log('close connection');
+    }
 })(factors);
