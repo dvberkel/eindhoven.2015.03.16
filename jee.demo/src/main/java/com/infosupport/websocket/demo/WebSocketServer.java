@@ -1,9 +1,6 @@
 package com.infosupport.websocket.demo;
 
-import javax.websocket.OnClose;
-import javax.websocket.OnError;
-import javax.websocket.OnOpen;
-import javax.websocket.Session;
+import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
 
 @ServerEndpoint("/ping")
@@ -21,5 +18,10 @@ public class WebSocketServer {
     @OnError
     public void handleError(Throwable throwable) {
         /* handle occurred error */
+    }
+
+    @OnMessage
+    public void handleMessage(String message, Session session) {
+
     }
 }
