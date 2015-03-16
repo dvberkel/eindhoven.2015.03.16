@@ -1,6 +1,7 @@
 package com.infosupport.websocket.demo;
 
 import javax.websocket.OnClose;
+import javax.websocket.OnError;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
@@ -15,5 +16,10 @@ public class WebSocketServer {
     @OnClose
     public void closeWebSocketSession(Session session) {
         /* clean up session */
+    }
+
+    @OnError
+    public void handleError(Throwable throwable) {
+        /* handle occurred error */
     }
 }
