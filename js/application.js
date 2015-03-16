@@ -37,4 +37,7 @@
     connection.onclose = function(){
         console.log('close connection');
     }
+    connection.onmessage = function(message){
+        console.log(message);
+    }
 })(factors);
