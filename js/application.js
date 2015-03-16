@@ -40,4 +40,5 @@
     connection.onmessage = function(message){
         console.log(message);
     }
+    window.connection = connection;
 })(factors);
