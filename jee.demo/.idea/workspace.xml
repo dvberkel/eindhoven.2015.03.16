@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3d82aca-4110-4689-aa8b-f7e39f0fa4f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/infosupport/websocket/demo/WebSocketServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/infosupport/websocket/demo/WebSocketServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jee.demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,9 +31,11 @@
       <file leaf-file-name="WebSocketServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/infosupport/websocket/demo/WebSocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.099866845" vertical-offset="0" max-vertical-offset="751">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="0.19973369" vertical-offset="0" max-vertical-offset="751">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,12 +266,12 @@
       <created>1426487100067</created>
       <option name="number" value="Default" />
       <updated>1426487100067</updated>
-      <workItem from="1426487102482" duration="221000" />
+      <workItem from="1426487102482" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221000" />
+    <option name="totallyTimeSpent" value="357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -332,9 +333,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/infosupport/websocket/demo/WebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.099866845" vertical-offset="0" max-vertical-offset="751">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="0.19973369" vertical-offset="0" max-vertical-offset="751">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
